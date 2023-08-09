@@ -2,12 +2,12 @@ x-veld:
   executable:
     about:
       description: "prints information about the python intepreter within the docker container."
-      scope: "testing"
+      topic: "testing"
 
 services:
   veld:
     build: .
     volumes:
-      - ./src/:/veld/executable/
+      - ./test.py:/veld/executable/test.py
     command: python /veld/executable/test.py
 
