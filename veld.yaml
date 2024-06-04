@@ -1,5 +1,5 @@
 x-veld:
-  executable:
+  code:
     about:
       description: "prints information about the python intepreter within the docker container."
       topic: "testing"
@@ -8,6 +8,6 @@ services:
   veld:
     build: .
     volumes:
-      - ./test.py:/veld/executable/test.py
-    command: python /veld/executable/test.py
+      - ./test.py:/veld/code/test.py
+    command: python /veld/code/test.py
 
