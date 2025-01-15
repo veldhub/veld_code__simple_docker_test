@@ -16,8 +16,6 @@ A code veld may be integrated into a chain veld, or used directly by adapting th
 within its yaml file and using the template folders provided in this repo. Open the respective veld 
 yaml file for more information.
 
-## contained code velds
-
 **[./veld.yaml](./veld.yaml)** 
 
 Prints python interpreter information from within the container.
